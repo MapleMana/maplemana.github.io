@@ -1,0 +1,103 @@
+/*
+ *
+ * Colurs
+ *
+ */
+ :root {
+   --colour-purple: #ffb3ff;
+   --colour-blue: #b3b3ff;
+   --colour-green: #b3ffb3;
+   --colour-white: white;
+   --colour-grey: grey;
+ }
+
+header, footer, main {
+  display: block;
+}
+
+html, body {
+  width:  100%;
+  height: 100%;
+  margin: 0;
+}
+
+
+a {
+  color: purple;
+}
+a:hover {
+  color: darkgreen;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+header .jumbotron {
+  background-color: var(--colour-purple);
+  margin-bottom: 0;
+}
+
+header .logo {
+  height: 300px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+header p {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+/*
+ *
+ * Main
+ *
+ */
+
+main .slayer {
+  background-color: var(--colour-white);
+}
+
+main .slayer .logo {
+  height: 300px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main .slayer p {
+  max-width: 500px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+main .slayer .video {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+footer .jumbotron {
+   background-color: var(--colour-blue);
+ }
+
+footer p {
+  margin-left: auto;
+  margin-right: auto;
+}
