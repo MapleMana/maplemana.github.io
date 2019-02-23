@@ -75,6 +75,8 @@ main .slayer .logo {
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 main .slayer p {
@@ -83,6 +85,8 @@ main .slayer p {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 main .slayer .video {
