@@ -95,6 +95,33 @@ main .slayer .video {
   margin-bottom: 20px;
 }
 
+main .slayer .googlePlayIcon {
+  display:inline-block;
+  width:164px;
+  vertical-align: top;
+  margin-top: -11px;
+  margin-right: auto;
+}
+
+main .slayer .googlePlayIcon img {
+  width:inherit;
+  display: inherit;
+}
+
+main .slayer .appStoreIcon {
+  margin-left: auto;
+  display:inline-block;
+  overflow:hidden;
+  background:url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2019-02-25&kind=iossoftware&bubble=apple_music) no-repeat;
+  width:135px;
+  height:40px;
+  vertical-align: top;
+}
+
+main div .storeIcons {
+
+}
+
 /*
  *
  * Footer
