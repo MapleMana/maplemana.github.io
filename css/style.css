@@ -56,17 +56,26 @@ header p {
   margin-bottom: 0;
 }
 
+header a .logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*
  *
  * Main
  *
  */
 
-main .slayer {
+main {
   background-color: var(--colour-white);
 }
 
-main .slayer .logo {
+#policy {
+  padding: 1em;
+}
+
+main .logo {
   max-width: 420px;
   max-height: 300px;
   width: 100%;
@@ -79,7 +88,7 @@ main .slayer .logo {
   padding-right: 5px;
 }
 
-main .slayer p {
+main p {
   max-width: 500px;
   width: auto;
   margin-left: auto;
@@ -89,13 +98,13 @@ main .slayer p {
   padding-right: 5px;
 }
 
-main .slayer .video {
+main .video {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
 }
 
-main .slayer .googlePlayIcon {
+main .googlePlayIcon {
   display:inline-block;
   width:164px;
   vertical-align: top;
@@ -103,12 +112,12 @@ main .slayer .googlePlayIcon {
   margin-right: auto;
 }
 
-main .slayer .googlePlayIcon img {
+main .googlePlayIcon img {
   width:inherit;
   display: inherit;
 }
 
-main .slayer .appStoreIcon {
+main .appStoreIcon {
   margin-left: auto;
   display:inline-block;
   overflow:hidden;
@@ -116,10 +125,6 @@ main .slayer .appStoreIcon {
   width:135px;
   height:40px;
   vertical-align: top;
-}
-
-main div .storeIcons {
-
 }
 
 /*
