@@ -4,11 +4,13 @@
  *
  */
  :root {
-   --colour-purple: #ffb3ff;
+   --colour-purple: #8232a0;
    --colour-blue: #b3b3ff;
    --colour-green: #b3ffb3;
    --colour-white: white;
    --colour-grey: grey;
+   --colour-teal: #00bbbb;
+   --colour-yellow: #f1ef98;
  }
 
 header, footer, main {
@@ -23,10 +25,10 @@ html, body {
 
 
 a {
-  color: purple;
+  color: var(--colour-white);
 }
 a:hover {
-  color: darkgreen;
+  color: var(--colour-green);
 }
 
 /*
@@ -67,16 +69,20 @@ header a .logo {
  *
  */
 
-main {
-  background-color: var(--colour-white);
-}
-
 #policy {
   padding: 8px;
 }
 
+main .slayer {
+  background-color: var(--colour-yellow);
+}
+
+main .a3720to1 {
+  background-color: var(--colour-teal);
+}
+
 main .logo {
-  max-width: 420px;
+  max-width: 560px;
   max-height: 300px;
   width: 100%;
   height: 100%;
@@ -106,7 +112,7 @@ main .video {
 
 main .googlePlayIcon {
   display:inline-block;
-  width:164px;
+  width:157px;
   vertical-align: top;
   margin-top: -11px;
   margin-right: auto;
@@ -127,6 +133,13 @@ main .appStoreIcon {
   vertical-align: top;
 }
 
+main .btndiv {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 /*
  *
  * Footer
@@ -134,11 +147,12 @@ main .appStoreIcon {
  */
 
 footer .jumbotron {
-   background-color: var(--colour-blue);
+   background-color: var(--colour-purple);
  }
 
 footer p {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  color: lightgrey;
 }
