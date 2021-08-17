@@ -11,6 +11,7 @@
    --colour-grey: grey;
    --colour-teal: #00bbbb;
    --colour-yellow: #f1ef98;
+   --colour-orange: #f89406;
  }
 
 header, footer, main {
@@ -79,6 +80,10 @@ main .slayer {
 
 main .a3720to1 {
   background-color: var(--colour-teal);
+}
+
+main .spookyMaze {
+  background-color: var(--colour-orange);
 }
 
 main .logo {
